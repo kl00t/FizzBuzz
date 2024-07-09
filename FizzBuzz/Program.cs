@@ -1,5 +1,5 @@
-﻿int iterations = 100;
-for (int i = 1; i < iterations; i++)
+﻿int numberOfTimes = 100;
+for (int i = 1; i < numberOfTimes + 1; i++)
 {
     var output = string.Empty;
 
@@ -14,8 +14,10 @@ for (int i = 1; i < iterations; i++)
 
     if (output == string.Empty)
     {
-        output = i.ToString();
+        output =i.ToString();
     }
 
     Console.WriteLine(output);
 }
+
+Console.ReadLine();
